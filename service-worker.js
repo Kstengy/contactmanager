@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Kstengy.github.io/contactmanager/precache-manifest.174a7bf1238999cccfdc542b4c567e70.js"
+  "/kstengy.github.io/contactmanager/precache-manifest.dda5dc54d1cac298e5d38ea5fec41653.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Kstengy.github.io/contactmanager/index.html", {
+workbox.routing.registerNavigationRoute("/kstengy.github.io/contactmanager/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
